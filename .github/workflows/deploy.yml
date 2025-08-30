@@ -3,6 +3,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build-and-deploy:
@@ -27,7 +29,7 @@ jobs:
     - name: Copy build files to docs
       run: |
         mkdir -p docs
-        cp -r client/dist/* docs/
+        cp -r dist/public/* docs/
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
