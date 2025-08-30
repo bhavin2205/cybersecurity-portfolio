@@ -1,0 +1,97 @@
+________________________________________
+Cybersecurity Engineer
+2404241992 | bhavinkp05@gmail.com | https://www.linkedin.com/in/bhavinkpanchal/ | https://github.com/bhavin2205
+________________________________________
+Skills
+•	Systems: Linux (Ubuntu, Kali), Windows Server
+•	Security Automation: Python, Bash, PHP, Java, C
+•	Threat Detection: SIEM Concepts, IDS/IPS (Suricata), EDR Concepts, ELK Stack, IOC Mapping
+•	Penetration Testing Tools: Wireshark, Nmap, Burp Suite, Metasploit, JohnTheRipper, Hashcat, DirBuster, Netcat, Autopsy, VeraCrypt
+•	Incident Response: Alert Analysis, Root Cause Identification, Escalation Procedures, Log Forensics, Digital Forensics
+•	Vulnerability Management: Nessus, Static Code Analysis Concepts, Dynamic Code Analysis Concepts, CVE Analysis
+•	DevSecOps & IaC: GitHub Actions, Terraform, Infrastructure as Code (IaC) Principles, CI/CD Pipelines
+•	Cloud Security (AWS): IAM, S3, EC2, CloudTrail, Security Groups, MFA Enforcement, IMDSv1/v2, ECR, EKS, DynamoDB, CloudFormation
+•	Networking: TCP/IP, Firewalls, Routing Concepts, SMB, FTP, SSH, Telnet, SMTP, HTTP
+•	Frameworks & Standards: MITRE ATT&CK, OWASP Top 10, NIST CSF, CIS Controls, CMMC 2.0 Level 1, HIPAA
+•	Soft Skills: Analytical Skills, Problem-Solving, Self-Learning, Clear Communication, Team Collaboration
+________________________________________
+Work Experience / Advanced Projects
+Cloud Village Volunteer | Remote | Feb 2025 - April 2025
+•	Cloud CTF Challenge Developer - LeakySystemsINC 
+o	Developed an intermediate-level AWS CTF challenge by simulating a real-world Server-Side Request Forgery (SSRF) vulnerability, resulting in Instance Metadata Service (IMDSv1) exploitation and sensitive S3 bucket access.
+o	Engineered a complex scenario for players to bypass AWS IAM restrictions and exploit direct object access via the AWS CLI, by leveraging leaked IAM credentials obtained from the compromised EC2 instance.
+o	Integrated GitHub Actions and OpenID Connect (OIDC) to simulate a GitHub Actions abuse scenario, allowing players to assume an AWS IAM role and retrieve a second flag from a restricted S3 bucket, demonstrating a full compromise chain.
+o	Automated cloud infrastructure provisioning using Terraform to enable scalable and repeatable CTF deployments, significantly enhancing challenge accessibility and reusability for participants.
+•	Cloud CTF Challenge Developer - The Dragon’s Akashic Records 
+o	Designed and deployed an "Easy" difficulty CTF challenge by configuring a vulnerable ELK stack that exposed detailed AWS CloudTrail logs, simulating a common misconfiguration in observability tools.
+o	Guided participants to extract hidden AWS IAM credentials and S3 bucket information by performing targeted log analysis within Kibana, showcasing practical log forensics and investigation skills.
+o	Utilized Python to generate and upload simulated AWS logs, including embedded IAM user credentials and S3 bucket details, demonstrating automation for creating realistic challenge scenarios.
+Security & Community Contributions | Open-Source | April 2025 – Present
+•	PurpleBox – MITRE ATT&CK-Based Attack Simulation & Detection Toolkit 
+o	Set up a virtualized project environment and structured directories for attacks, detections, and tools, enabling a modular and scalable framework for security testing.
+o	Implemented detection logic for PowerShell execution (T1059.001) by actively parsing Windows Event ID 4104 logs, significantly increasing visibility into common adversary behaviors.
+o	Enhanced detection accuracy by integrating PowerShell Script Block Logging and developing a custom Python tool (parse_report.py) to summarize and highlight detections from logs, streamlining alert analysis.
+o	Expanded technique coverage to include reconnaissance (T1595) and network/host enumeration (T1046) by simulating commands like ping, netstat, and Get-Process and building Python detection scripts to match indicators in logs.
+o	Developed a user-friendly Command Line Interface (CLI) in Python (purplebox.py) to simulate and detect each technique, logging results and alerts to timestamped files for organized reporting.
+________________________________________
+University Projects
+Cloud Security Architecture & HIPAA Compliance Assessment | University of Maryland | Aug 2023 - May 2025
+•	Conducted comprehensive security assessments on a healthcare system's initial cloud architecture in AWS, providing necessary measures to ensure HIPAA compliance and enhance system availability and security.
+•	Identified critical vulnerabilities across data security, VM vulnerabilities, network security, and disaster recovery aspects, leading to a fortified security posture for sensitive patient data.
+•	Designed and proposed necessary infrastructure changes for CloudFormation templates, implementing robust security controls and architectural modifications based on identified vulnerabilities to protect patient information from misuse.
+•	Developed an architectural viewpoint for end-users (Patients, Caretakers, IT Support), ensuring the system's security and high availability while strictly adhering to HIPAA regulations in the AWS environment.
+Containerized Doctor's Office Appointment Application (AWS EKS & Docker) | University of Maryland | Aug 2023 - May 2025
+•	Developed and deployed a scalable, containerized Doctor's Office Appointment application on AWS using EKS, Kubernetes, and Docker, demonstrating proficiency in microservices architecture and orchestration.
+•	Implemented a robust front-end with React, a secure back-end with Express.js, and DynamoDB for low-latency data storage, ensuring functional and secure management of appointment data.
+•	Streamlined build, test, and deployment processes by integrating GitHub Actions as a CI/CD pipeline, enabling rapid iteration and reliable deployments, reducing manual effort and improving development efficiency.
+•	Enhanced scalability, high availability, and security of the application through the effective use of Amazon EKS for automated deployments and independent component management.
+Custom Suricata Rules Development | University of Maryland | Aug 2023 - May 2025
+•	Developed and deployed custom Suricata IDS rules to detect specific malware families and attack patterns, improving network threat detection accuracy and reducing false positives.
+•	Analyzed network traffic captures (PCAP files) in Wireshark to create signatures for DarkGate malware infections (PowerShell and file execution patterns), NullMixer command-and-control (C2) communications, and WordPress command injection vulnerabilities.
+•	Enhanced Suricata's capability for real-time intrusion detection (IDS) and network security monitoring (NSM) by tailoring rules to identify malicious activities based on specific network traffic patterns and signatures.
+Digital Forensics & Incident Response (DFIR) | University of Maryland | Aug 2023 - May 2025
+•	Conducted a comprehensive forensic analysis of a disk image (ENPM687FinalXP.vmwarevm) to identify, collect, and interpret digital evidence, successfully investigating malware presence and supporting an investigative process.
+•	Utilized Autopsy for file system and application file examination, VeraCrypt for decrypting sensitive data, and Wireshark for network traffic analysis, ensuring the integrity of collected evidence.
+•	Decrypted a critical MP3 file and uncovered an encrypted drive containing a final form executable by analyzing obiwan.exe and obiwan2.exe, leading to the discovery of crucial messages and blueprints related to a simulated "Death Star" attack.
+•	Provided clear recommendations to cease further investigation due to successfully meeting primary objectives and outlined next steps for evidence documentation, stakeholder communication, and post-incident actions (e.g., assessing vulnerabilities, enhancing monitoring, implementing encryption).
+Comprehensive Penetration Testing & Threat Analysis | University of Maryland | Aug 2023 - May 2025
+•	Conducted a thorough penetration test and security evaluation of a Linux system, identifying and exploiting vulnerabilities to gain unauthorized access and achieve root privileges.
+•	Performed initial reconnaissance using Nmap and DirBuster to identify open services (FTP, SSH, Telnet, SMTP, HTTP on port 80) and enumerate web directories, establishing key entry points.
+•	Exploited a command injection vulnerability via the DVWA web application with low security, successfully obtaining a reverse shell using Netcat (nc -lvnp 9001) and gaining access to MySQL database credentials (root:enpm695).
+•	Identified and analyzed critical Apache2 vulnerabilities (CVEs including Local Privilege Escalation, DoS, RCE), demonstrating deep understanding of web server security flaws.
+•	Discovered hidden information through steganography within an image (emaw.png) to extract a password ("judgement"), enabling successful login as the "emaw" user.
+•	Performed local privilege escalation on the Linux OS by identifying and exploiting vulnerabilities (e.g., 44298.c file), achieving root access to the system.
+•	Conducted in-depth threat modeling, identifying and analyzing various threat vectors including brute force, web application vulnerabilities, unauthorized access (SSH/Telnet), email phishing, and data transmission attacks (FTP/Telnet).
+•	Performed forensic analysis to uncover "hacker" identities ("thanos" with password "destiny") and located encrypted "Infinity Stone" files (power, space, reality, soul, time, mind) across various directories, successfully decrypting them.
+Penetration Testing (Multi-System Network Environment) | University of Maryland | Aug 2023 - May 2025
+•	Conducted a comprehensive penetration test on a multi-system network environment, including Windows (7, 10 Server, 2016 Domain Controller) and Ubuntu machines, identifying critical vulnerabilities and demonstrating a full network infiltration chain.
+•	Exploited the MS17-010 EternalBlue vulnerability in a Windows 7 machine using Metasploit, successfully obtaining system-level access and extracting password hashes, demonstrating expertise in exploit development and post-exploitation.
+•	Achieved lateral movement and credential escalation by enumerating SMB shares, extracting the NTDS.dit file from the Domain Controller, and cracking passwords with JohnTheRipper and Hashcat, leading to privileged access.
+•	Compromised an AWS S3 bucket by discovering and accessing it, downloading multiple flag images and associated READMEs, showcasing cloud security assessment capabilities.
+•	Provided actionable security recommendations, including regular patch management, robust credential policies, comprehensive network segmentation, and continuous vulnerability assessment, to improve overall security posture and resilience.
+CMMC Policy Assessment ("Michael Scott Paper Company") | University of Maryland | Aug 2023 - May 2025
+•	Audited the security posture of a multi-system network environment against the CMMC policy created by the Department of Defense (DoD), identifying critical gaps in access control, external connections, public information control, and physical protection.
+•	Conducted a detailed self-assessment based on CMMC 2.0 Level 1 requirements, highlighting non-compliance in areas such as password regulation, media disposal, and network boundary identification.
+•	Provided specific, actionable recommendations, including firewall and VPN deployment, improved public access policies, enhanced device management, and robust logging, to ensure compliance with CMMC 2.0 Level 1 and elevate the organization's cybersecurity resilience.
+________________________________________
+Education
+University of Maryland, College Park, MD, USA
+Master of Engineering in Cybersecurity – Expected May 2025
+•	Relevant Coursework: Penetration Testing, Cloud Security, Network Security, Binary Exploitation, Advanced Hacking in Linux
+Gujarat Technological University, Gandhinagar, GJ, India
+Bachelor of Engineering in Information Technology – May 2021
+•	Relevant Coursework: DSA, Networking, Programming in C and Python, Distributed Databases
+________________________________________
+Certifications
+•	CompTIA Security+ |LinkedIn 
+•	| Issued Feb 2025
+•	Become an Ethical Hacker | LinkedIn | Issued Apr 2025
+•	Digital Forensics Essential | EC-Council | Issued Aug 2023
+•	Certified Information Security and Ethical Hacker | Pristine InfoSolutions Pvt. Ltd. | Issued May 2022
+•	Ethical Hacking Essential | EC-Council
+________________________________________
+Cybersecurity Engagement & Learning
+•	Actively participates in cybersecurity learning and challenge platforms, including TryHackMe and HackTheBox, to continuously develop and refine practical offensive and defensive security skills.
+•	Engages in competitive Capture The Flag (CTF) events on platforms like Intigriti and Huntress, applying theoretical knowledge to real-world attack scenarios and enhancing problem-solving abilities.
+________________________________________
+
